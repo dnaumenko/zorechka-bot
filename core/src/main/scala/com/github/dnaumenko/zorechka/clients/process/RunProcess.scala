@@ -1,4 +1,4 @@
-package com.wix.zorechka.clients.process
+package com.github.dnaumenko.zorechka.clients.process
 
 import java.nio.file.Path
 

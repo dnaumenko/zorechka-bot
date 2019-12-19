@@ -1,10 +1,13 @@
-package com.wix.zorechka
+package com.github.dnaumenko.zorechka
 
 import java.nio.file.{Files, Path}
 
-import com.wix.zorechka.clients.{BazelClient, BuildozerClient, GithubClient, Http4sClient, MavenCentralClient}
-import com.wix.zorechka.repos.{GitRepo, GithubRepos}
-import com.wix.zorechka.service.{ResultNotifier, ThirdPartyDepsAnalyzer, UnusedDepsAnalyser}
+import com.github.dnaumenko.zorechka.clients.{BazelClient, BuildozerClient, GithubClient, Http4sClient, MavenCentralClient}
+import com.github.dnaumenko.zorechka.repos.{GitRepo, GithubRepos}
+import com.github.dnaumenko.zorechka.service.{ResultNotifier, ThirdPartyDepsAnalyzer, UnusedDepsAnalyser}
+import com.github.dnaumenko.zorechka.clients.{BazelClient, BuildozerClient, Http4sClient, MavenCentralClient}
+import com.github.dnaumenko.zorechka.repos.{GitRepo, GithubRepos}
+import com.github.dnaumenko.zorechka.service.{ResultNotifier, ThirdPartyDepsAnalyzer, UnusedDepsAnalyser}
 import zio.{Runtime, ZIO}
 import zio.console._
 import zio.internal.PlatformLive

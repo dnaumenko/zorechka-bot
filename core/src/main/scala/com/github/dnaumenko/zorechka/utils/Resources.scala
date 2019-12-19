@@ -1,4 +1,4 @@
-package com.wix.zorechka.utils
+package com.github.dnaumenko.zorechka.utils
 
 import java.io.File
 import java.nio.file.Files

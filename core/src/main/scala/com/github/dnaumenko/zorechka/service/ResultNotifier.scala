@@ -1,11 +1,13 @@
-package com.wix.zorechka.service
+package com.github.dnaumenko.zorechka.service
 
 import java.nio.file.{Files, Path}
 
-import com.wix.zorechka.Dep
-import com.wix.zorechka.StartApp.AppEnv
-import com.wix.zorechka.clients.{BuildozerClient, GithubClient}
-import com.wix.zorechka.clients.BuildozerClient
+import com.github.dnaumenko.zorechka.Dep
+import com.github.dnaumenko.zorechka.clients.{BuildozerClient, GithubClient}
+import com.github.dnaumenko.zorechka.Dep
+import com.github.dnaumenko.zorechka.StartApp.AppEnv
+import com.github.dnaumenko.zorechka.clients.{BuildozerClient, GithubClient}
+import com.github.dnaumenko.zorechka.clients.BuildozerClient
 import zio.console.Console
 import zio.{RIO, ZIO}
 

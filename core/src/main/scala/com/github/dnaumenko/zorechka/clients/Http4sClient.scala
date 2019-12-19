@@ -1,7 +1,8 @@
-package com.wix.zorechka.clients
+package com.github.dnaumenko.zorechka.clients
 
 import cats.effect.Resource
-import com.wix.zorechka.HasAppConfig
+import com.github.dnaumenko.zorechka.HasAppConfig
+import com.github.dnaumenko.zorechka.HasAppConfig
 import org.http4s.client.Client
 import org.http4s.{Request, Response}
 import org.http4s.client.blaze.BlazeClientBuilder

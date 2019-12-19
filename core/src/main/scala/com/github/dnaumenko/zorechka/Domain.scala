@@ -1,9 +1,9 @@
-package com.wix.zorechka
+package com.github.dnaumenko.zorechka
 
 import java.nio.file.Path
 
-import com.wix.zorechka.repos.GitRepo
-import com.wix.zorechka.repos.GitRepo
+import com.github.dnaumenko.zorechka.repos.GitRepo
+import com.github.dnaumenko.zorechka.repos.GitRepo
 import org.apache.maven.artifact.versioning.ComparableVersion
 
 case class ForkData(repo: GitRepo, forkDir: Path)

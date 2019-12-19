@@ -1,7 +1,9 @@
-package com.wix.zorechka.clients
+package com.github.dnaumenko.zorechka.clients
 
-import com.wix.zorechka.{Dep, HasAppConfig}
-import com.wix.zorechka.HasAppConfig.Live
+import com.github.dnaumenko.zorechka.Dep
+import com.github.dnaumenko.zorechka.HasAppConfig.Live
+import com.github.dnaumenko.zorechka.{Dep, HasAppConfig}
+import com.github.dnaumenko.zorechka.HasAppConfig.Live
 import org.specs2.mutable.Specification
 import zio.{DefaultRuntime, Runtime}
 import zio.internal.PlatformLive

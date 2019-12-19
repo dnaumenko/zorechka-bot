@@ -1,9 +1,9 @@
-package com.wix.zorechka
+package com.github.dnaumenko.zorechka
 
 import java.util.concurrent.{Executors, ThreadPoolExecutor}
 
-import com.wix.zorechka.HasAppConfig.Cfg
-import com.wix.zorechka.utils.concurrent.NamedThreadFactory
+import com.github.dnaumenko.zorechka.utils.concurrent.NamedThreadFactory
+import com.github.dnaumenko.zorechka.HasAppConfig.Cfg
 import zio.internal.Executor
 
 import scala.concurrent.ExecutionContext

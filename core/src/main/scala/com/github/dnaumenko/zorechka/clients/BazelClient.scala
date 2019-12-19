@@ -1,10 +1,12 @@
-package com.wix.zorechka.clients
+package com.github.dnaumenko.zorechka.clients
 
 import java.nio.file.Path
 
-import com.wix.zorechka.Dep
-import com.wix.zorechka.clients.process.RunProcess
-import com.wix.zorechka.clients.process.RunProcess.execCmd
+import com.github.dnaumenko.zorechka.Dep
+import com.github.dnaumenko.zorechka.clients.process.RunProcess
+import com.github.dnaumenko.zorechka.Dep
+import com.github.dnaumenko.zorechka.clients.process.RunProcess
+import com.github.dnaumenko.zorechka.clients.process.RunProcess.execCmd
 import zio.{RIO, Task, ZIO}
 
 case class BuildPackage(value: String) extends AnyVal
